@@ -313,17 +313,24 @@ export default function MonkepoGame() {
           )}
         </div>
 
-        {/* Guesses */}
+
         {sortedGuesses.length > 0 && (
           <div className="space-y-6 mb-8">
-            <h3 className="text-xl font-bold text-center text-white">Suas Tentativas ({sortedGuesses.length})</h3>
+            <h3 className="text-xl font-bold text-center text-white">
+              Suas Tentativas ({sortedGuesses.length})
+            </h3>
 
             {sortedGuesses.map((guess, index) => (
-              <Card key={index} className="overflow-hidden bg-gray-800 border-gray-700">
+              <Card key={index} className="overflow-hidden bg-gray-800 border-gray-700 relative">
                 <CardContent className="p-6">
-                  <div className="flex items-center justify-between">
-                    {/* Pokémon Info */}
-                    <div className="flex items-center space-x-4">
+                  <div className="flex flex-col md:flex-row items-center justify-center md:justify-around gap-4">
+                    {Object.values(guess.results).every((r) => r === "correct") && (
+                      <span className="absolute top-2 right-2 bg-yellow-400 text-yellow-900 rounded-full px-2 py-1 flex items-center gap-1 shadow-lg text-xs font-bold z-10">
+                        <Trophy className="h-4 w-4" />
+                        Acertou!
+                      </span>
+                    )}
+                    <div className="flex justify-center items-center space-x-4 w-full md:w-auto">
                       <img
                         src={guess.pokemon.sprite || "/placeholder.svg"}
                         alt={guess.pokemon.name}
@@ -340,7 +347,7 @@ export default function MonkepoGame() {
                     </div>
 
                     {/* Characteristics */}
-                    <div className="flex space-x-4">
+                    <div className="flex flex-wrap md:flex-nowrap justify-center gap-2 md:space-x-4 w-full md:w-auto">
                       <PokemonCharacteristic
                         label="Gen"
                         value={guess.pokemon.generation}
@@ -368,20 +375,14 @@ export default function MonkepoGame() {
                       />
                     </div>
 
-                    {/* Win indicator */}
-                    <div className="ml-4">
-                      {Object.values(guess.results).every((r) => r === "correct") ? (
-                        <Trophy className="h-8 w-8 text-yellow-400" />
-                      ) : (
-                        <div className="w-8 h-8" />
-                      )}
-                    </div>
+
                   </div>
                 </CardContent>
               </Card>
             ))}
           </div>
         )}
+
       </main>
 
       {/* Win Modal */}
