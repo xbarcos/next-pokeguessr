@@ -1,0 +1,14 @@
+{
+  "pokemon": {
+    "id": 137,
+    "name": "porygon",
+    "height": 0.8,
+    "weight": 36.5,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png"
+  },
+  "date": "2025-07-26"
+}

@@ -1,0 +1,1730 @@
+[
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "height": 0.7,
+    "weight": 6.9,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+  },
+  {
+    "id": 2,
+    "name": "ivysaur",
+    "height": 1,
+    "weight": 13,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+  },
+  {
+    "id": 3,
+    "name": "venusaur",
+    "height": 2,
+    "weight": 100,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+  },
+  {
+    "id": 4,
+    "name": "charmander",
+    "height": 0.6,
+    "weight": 8.5,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+  },
+  {
+    "id": 5,
+    "name": "charmeleon",
+    "height": 1.1,
+    "weight": 19,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+  },
+  {
+    "id": 6,
+    "name": "charizard",
+    "height": 1.7,
+    "weight": 90.5,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+  },
+  {
+    "id": 7,
+    "name": "squirtle",
+    "height": 0.5,
+    "weight": 9,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+  },
+  {
+    "id": 8,
+    "name": "wartortle",
+    "height": 1,
+    "weight": 22.5,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+  },
+  {
+    "id": 9,
+    "name": "blastoise",
+    "height": 1.6,
+    "weight": 85.5,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+  },
+  {
+    "id": 10,
+    "name": "caterpie",
+    "height": 0.3,
+    "weight": 2.9,
+    "types": [
+      "bug"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png"
+  },
+  {
+    "id": 11,
+    "name": "metapod",
+    "height": 0.7,
+    "weight": 9.9,
+    "types": [
+      "bug"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png"
+  },
+  {
+    "id": 12,
+    "name": "butterfree",
+    "height": 1.1,
+    "weight": 32,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png"
+  },
+  {
+    "id": 13,
+    "name": "weedle",
+    "height": 0.3,
+    "weight": 3.2,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png"
+  },
+  {
+    "id": 14,
+    "name": "kakuna",
+    "height": 0.6,
+    "weight": 10,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png"
+  },
+  {
+    "id": 15,
+    "name": "beedrill",
+    "height": 1,
+    "weight": 29.5,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+  },
+  {
+    "id": 16,
+    "name": "pidgey",
+    "height": 0.3,
+    "weight": 1.8,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png"
+  },
+  {
+    "id": 17,
+    "name": "pidgeotto",
+    "height": 1.1,
+    "weight": 30,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png"
+  },
+  {
+    "id": 18,
+    "name": "pidgeot",
+    "height": 1.5,
+    "weight": 39.5,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png"
+  },
+  {
+    "id": 19,
+    "name": "rattata",
+    "height": 0.3,
+    "weight": 3.5,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png"
+  },
+  {
+    "id": 20,
+    "name": "raticate",
+    "height": 0.7,
+    "weight": 18.5,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png"
+  },
+  {
+    "id": 21,
+    "name": "spearow",
+    "height": 0.3,
+    "weight": 2,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png"
+  },
+  {
+    "id": 22,
+    "name": "fearow",
+    "height": 1.2,
+    "weight": 38,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png"
+  },
+  {
+    "id": 23,
+    "name": "ekans",
+    "height": 2,
+    "weight": 6.9,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+  },
+  {
+    "id": 24,
+    "name": "arbok",
+    "height": 3.5,
+    "weight": 65,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png"
+  },
+  {
+    "id": 25,
+    "name": "pikachu",
+    "height": 0.4,
+    "weight": 6,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+  },
+  {
+    "id": 26,
+    "name": "raichu",
+    "height": 0.8,
+    "weight": 30,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+  },
+  {
+    "id": 27,
+    "name": "sandshrew",
+    "height": 0.6,
+    "weight": 12,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png"
+  },
+  {
+    "id": 28,
+    "name": "sandslash",
+    "height": 1,
+    "weight": 29.5,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png"
+  },
+  {
+    "id": 29,
+    "name": "nidoran-f",
+    "height": 0.4,
+    "weight": 7,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png"
+  },
+  {
+    "id": 30,
+    "name": "nidorina",
+    "height": 0.8,
+    "weight": 20,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png"
+  },
+  {
+    "id": 31,
+    "name": "nidoqueen",
+    "height": 1.3,
+    "weight": 60,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png"
+  },
+  {
+    "id": 32,
+    "name": "nidoran-m",
+    "height": 0.5,
+    "weight": 9,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png"
+  },
+  {
+    "id": 33,
+    "name": "nidorino",
+    "height": 0.9,
+    "weight": 19.5,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png"
+  },
+  {
+    "id": 34,
+    "name": "nidoking",
+    "height": 1.4,
+    "weight": 62,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png"
+  },
+  {
+    "id": 35,
+    "name": "clefairy",
+    "height": 0.6,
+    "weight": 7.5,
+    "types": [
+      "fairy"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png"
+  },
+  {
+    "id": 36,
+    "name": "clefable",
+    "height": 1.3,
+    "weight": 40,
+    "types": [
+      "fairy"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png"
+  },
+  {
+    "id": 37,
+    "name": "vulpix",
+    "height": 0.6,
+    "weight": 9.9,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png"
+  },
+  {
+    "id": 38,
+    "name": "ninetales",
+    "height": 1.1,
+    "weight": 19.9,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png"
+  },
+  {
+    "id": 39,
+    "name": "jigglypuff",
+    "height": 0.5,
+    "weight": 5.5,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+  },
+  {
+    "id": 40,
+    "name": "wigglytuff",
+    "height": 1,
+    "weight": 12,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png"
+  },
+  {
+    "id": 41,
+    "name": "zubat",
+    "height": 0.8,
+    "weight": 7.5,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png"
+  },
+  {
+    "id": 42,
+    "name": "golbat",
+    "height": 1.6,
+    "weight": 55,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png"
+  },
+  {
+    "id": 43,
+    "name": "oddish",
+    "height": 0.5,
+    "weight": 5.4,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png"
+  },
+  {
+    "id": 44,
+    "name": "gloom",
+    "height": 0.8,
+    "weight": 8.6,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png"
+  },
+  {
+    "id": 45,
+    "name": "vileplume",
+    "height": 1.2,
+    "weight": 18.6,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png"
+  },
+  {
+    "id": 46,
+    "name": "paras",
+    "height": 0.3,
+    "weight": 5.4,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png"
+  },
+  {
+    "id": 47,
+    "name": "parasect",
+    "height": 1,
+    "weight": 29.5,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png"
+  },
+  {
+    "id": 48,
+    "name": "venonat",
+    "height": 1,
+    "weight": 30,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png"
+  },
+  {
+    "id": 49,
+    "name": "venomoth",
+    "height": 1.5,
+    "weight": 12.5,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png"
+  },
+  {
+    "id": 50,
+    "name": "diglett",
+    "height": 0.2,
+    "weight": 0.8,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png"
+  },
+  {
+    "id": 51,
+    "name": "dugtrio",
+    "height": 0.7,
+    "weight": 33.3,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png"
+  },
+  {
+    "id": 52,
+    "name": "meowth",
+    "height": 0.4,
+    "weight": 4.2,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png"
+  },
+  {
+    "id": 53,
+    "name": "persian",
+    "height": 1,
+    "weight": 32,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png"
+  },
+  {
+    "id": 54,
+    "name": "psyduck",
+    "height": 0.8,
+    "weight": 19.6,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png"
+  },
+  {
+    "id": 55,
+    "name": "golduck",
+    "height": 1.7,
+    "weight": 76.6,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png"
+  },
+  {
+    "id": 56,
+    "name": "mankey",
+    "height": 0.5,
+    "weight": 28,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png"
+  },
+  {
+    "id": 57,
+    "name": "primeape",
+    "height": 1,
+    "weight": 32,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png"
+  },
+  {
+    "id": 58,
+    "name": "growlithe",
+    "height": 0.7,
+    "weight": 19,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png"
+  },
+  {
+    "id": 59,
+    "name": "arcanine",
+    "height": 1.9,
+    "weight": 155,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png"
+  },
+  {
+    "id": 60,
+    "name": "poliwag",
+    "height": 0.6,
+    "weight": 12.4,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png"
+  },
+  {
+    "id": 61,
+    "name": "poliwhirl",
+    "height": 1,
+    "weight": 20,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png"
+  },
+  {
+    "id": 62,
+    "name": "poliwrath",
+    "height": 1.3,
+    "weight": 54,
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png"
+  },
+  {
+    "id": 63,
+    "name": "abra",
+    "height": 0.9,
+    "weight": 19.5,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png"
+  },
+  {
+    "id": 64,
+    "name": "kadabra",
+    "height": 1.3,
+    "weight": 56.5,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png"
+  },
+  {
+    "id": 65,
+    "name": "alakazam",
+    "height": 1.5,
+    "weight": 48,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
+  },
+  {
+    "id": 66,
+    "name": "machop",
+    "height": 0.8,
+    "weight": 19.5,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png"
+  },
+  {
+    "id": 67,
+    "name": "machoke",
+    "height": 1.5,
+    "weight": 70.5,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png"
+  },
+  {
+    "id": 68,
+    "name": "machamp",
+    "height": 1.6,
+    "weight": 130,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png"
+  },
+  {
+    "id": 69,
+    "name": "bellsprout",
+    "height": 0.7,
+    "weight": 4,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png"
+  },
+  {
+    "id": 70,
+    "name": "weepinbell",
+    "height": 1,
+    "weight": 6.4,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png"
+  },
+  {
+    "id": 71,
+    "name": "victreebel",
+    "height": 1.7,
+    "weight": 15.5,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png"
+  },
+  {
+    "id": 72,
+    "name": "tentacool",
+    "height": 0.9,
+    "weight": 45.5,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png"
+  },
+  {
+    "id": 73,
+    "name": "tentacruel",
+    "height": 1.6,
+    "weight": 55,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png"
+  },
+  {
+    "id": 74,
+    "name": "geodude",
+    "height": 0.4,
+    "weight": 20,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png"
+  },
+  {
+    "id": 75,
+    "name": "graveler",
+    "height": 1,
+    "weight": 105,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png"
+  },
+  {
+    "id": 76,
+    "name": "golem",
+    "height": 1.4,
+    "weight": 300,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png"
+  },
+  {
+    "id": 77,
+    "name": "ponyta",
+    "height": 1,
+    "weight": 30,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png"
+  },
+  {
+    "id": 78,
+    "name": "rapidash",
+    "height": 1.7,
+    "weight": 95,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png"
+  },
+  {
+    "id": 79,
+    "name": "slowpoke",
+    "height": 1.2,
+    "weight": 36,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png"
+  },
+  {
+    "id": 80,
+    "name": "slowbro",
+    "height": 1.6,
+    "weight": 78.5,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png"
+  },
+  {
+    "id": 81,
+    "name": "magnemite",
+    "height": 0.3,
+    "weight": 6,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png"
+  },
+  {
+    "id": 82,
+    "name": "magneton",
+    "height": 1,
+    "weight": 60,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png"
+  },
+  {
+    "id": 83,
+    "name": "farfetchd",
+    "height": 0.8,
+    "weight": 15,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png"
+  },
+  {
+    "id": 84,
+    "name": "doduo",
+    "height": 1.4,
+    "weight": 39.2,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png"
+  },
+  {
+    "id": 85,
+    "name": "dodrio",
+    "height": 1.8,
+    "weight": 85.2,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png"
+  },
+  {
+    "id": 86,
+    "name": "seel",
+    "height": 1.1,
+    "weight": 90,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png"
+  },
+  {
+    "id": 87,
+    "name": "dewgong",
+    "height": 1.7,
+    "weight": 120,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png"
+  },
+  {
+    "id": 88,
+    "name": "grimer",
+    "height": 0.9,
+    "weight": 30,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png"
+  },
+  {
+    "id": 89,
+    "name": "muk",
+    "height": 1.2,
+    "weight": 30,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png"
+  },
+  {
+    "id": 90,
+    "name": "shellder",
+    "height": 0.3,
+    "weight": 4,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png"
+  },
+  {
+    "id": 91,
+    "name": "cloyster",
+    "height": 1.5,
+    "weight": 132.5,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png"
+  },
+  {
+    "id": 92,
+    "name": "gastly",
+    "height": 1.3,
+    "weight": 0.1,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png"
+  },
+  {
+    "id": 93,
+    "name": "haunter",
+    "height": 1.6,
+    "weight": 0.1,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png"
+  },
+  {
+    "id": 94,
+    "name": "gengar",
+    "height": 1.5,
+    "weight": 40.5,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+  },
+  {
+    "id": 95,
+    "name": "onix",
+    "height": 8.8,
+    "weight": 210,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png"
+  },
+  {
+    "id": 96,
+    "name": "drowzee",
+    "height": 1,
+    "weight": 32.4,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png"
+  },
+  {
+    "id": 97,
+    "name": "hypno",
+    "height": 1.6,
+    "weight": 75.6,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png"
+  },
+  {
+    "id": 98,
+    "name": "krabby",
+    "height": 0.4,
+    "weight": 6.5,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png"
+  },
+  {
+    "id": 99,
+    "name": "kingler",
+    "height": 1.3,
+    "weight": 60,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png"
+  },
+  {
+    "id": 100,
+    "name": "voltorb",
+    "height": 0.5,
+    "weight": 10.4,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png"
+  },
+  {
+    "id": 101,
+    "name": "electrode",
+    "height": 1.2,
+    "weight": 66.6,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png"
+  },
+  {
+    "id": 102,
+    "name": "exeggcute",
+    "height": 0.4,
+    "weight": 2.5,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png"
+  },
+  {
+    "id": 103,
+    "name": "exeggutor",
+    "height": 2,
+    "weight": 120,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png"
+  },
+  {
+    "id": 104,
+    "name": "cubone",
+    "height": 0.4,
+    "weight": 6.5,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png"
+  },
+  {
+    "id": 105,
+    "name": "marowak",
+    "height": 1,
+    "weight": 45,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png"
+  },
+  {
+    "id": 106,
+    "name": "hitmonlee",
+    "height": 1.5,
+    "weight": 49.8,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png"
+  },
+  {
+    "id": 107,
+    "name": "hitmonchan",
+    "height": 1.4,
+    "weight": 50.2,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png"
+  },
+  {
+    "id": 108,
+    "name": "lickitung",
+    "height": 1.2,
+    "weight": 65.5,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png"
+  },
+  {
+    "id": 109,
+    "name": "koffing",
+    "height": 0.6,
+    "weight": 1,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png"
+  },
+  {
+    "id": 110,
+    "name": "weezing",
+    "height": 1.2,
+    "weight": 9.5,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png"
+  },
+  {
+    "id": 111,
+    "name": "rhyhorn",
+    "height": 1,
+    "weight": 115,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png"
+  },
+  {
+    "id": 112,
+    "name": "rhydon",
+    "height": 1.9,
+    "weight": 120,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png"
+  },
+  {
+    "id": 113,
+    "name": "chansey",
+    "height": 1.1,
+    "weight": 34.6,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png"
+  },
+  {
+    "id": 114,
+    "name": "tangela",
+    "height": 1,
+    "weight": 35,
+    "types": [
+      "grass"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png"
+  },
+  {
+    "id": 115,
+    "name": "kangaskhan",
+    "height": 2.2,
+    "weight": 80,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png"
+  },
+  {
+    "id": 116,
+    "name": "horsea",
+    "height": 0.4,
+    "weight": 8,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png"
+  },
+  {
+    "id": 117,
+    "name": "seadra",
+    "height": 1.2,
+    "weight": 25,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png"
+  },
+  {
+    "id": 118,
+    "name": "goldeen",
+    "height": 0.6,
+    "weight": 15,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png"
+  },
+  {
+    "id": 119,
+    "name": "seaking",
+    "height": 1.3,
+    "weight": 39,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png"
+  },
+  {
+    "id": 120,
+    "name": "staryu",
+    "height": 0.8,
+    "weight": 34.5,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png"
+  },
+  {
+    "id": 121,
+    "name": "starmie",
+    "height": 1.1,
+    "weight": 80,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png"
+  },
+  {
+    "id": 122,
+    "name": "mr-mime",
+    "height": 1.3,
+    "weight": 54.5,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png"
+  },
+  {
+    "id": 123,
+    "name": "scyther",
+    "height": 1.5,
+    "weight": 56,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png"
+  },
+  {
+    "id": 124,
+    "name": "jynx",
+    "height": 1.4,
+    "weight": 40.6,
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png"
+  },
+  {
+    "id": 125,
+    "name": "electabuzz",
+    "height": 1.1,
+    "weight": 30,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png"
+  },
+  {
+    "id": 126,
+    "name": "magmar",
+    "height": 1.3,
+    "weight": 44.5,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png"
+  },
+  {
+    "id": 127,
+    "name": "pinsir",
+    "height": 1.5,
+    "weight": 55,
+    "types": [
+      "bug"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png"
+  },
+  {
+    "id": 128,
+    "name": "tauros",
+    "height": 1.4,
+    "weight": 88.4,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png"
+  },
+  {
+    "id": 129,
+    "name": "magikarp",
+    "height": 0.9,
+    "weight": 10,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png"
+  },
+  {
+    "id": 130,
+    "name": "gyarados",
+    "height": 6.5,
+    "weight": 235,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png"
+  },
+  {
+    "id": 131,
+    "name": "lapras",
+    "height": 2.5,
+    "weight": 220,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png"
+  },
+  {
+    "id": 132,
+    "name": "ditto",
+    "height": 0.3,
+    "weight": 4,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png"
+  },
+  {
+    "id": 133,
+    "name": "eevee",
+    "height": 0.3,
+    "weight": 6.5,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+  },
+  {
+    "id": 134,
+    "name": "vaporeon",
+    "height": 1,
+    "weight": 29,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+  },
+  {
+    "id": 135,
+    "name": "jolteon",
+    "height": 0.8,
+    "weight": 24.5,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+  },
+  {
+    "id": 136,
+    "name": "flareon",
+    "height": 0.9,
+    "weight": 25,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+  },
+  {
+    "id": 137,
+    "name": "porygon",
+    "height": 0.8,
+    "weight": 36.5,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png"
+  },
+  {
+    "id": 138,
+    "name": "omanyte",
+    "height": 0.4,
+    "weight": 7.5,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png"
+  },
+  {
+    "id": 139,
+    "name": "omastar",
+    "height": 1,
+    "weight": 35,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png"
+  },
+  {
+    "id": 140,
+    "name": "kabuto",
+    "height": 0.5,
+    "weight": 11.5,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png"
+  },
+  {
+    "id": 141,
+    "name": "kabutops",
+    "height": 1.3,
+    "weight": 40.5,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png"
+  },
+  {
+    "id": 142,
+    "name": "aerodactyl",
+    "height": 1.8,
+    "weight": 59,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png"
+  },
+  {
+    "id": 143,
+    "name": "snorlax",
+    "height": 2.1,
+    "weight": 460,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+  },
+  {
+    "id": 144,
+    "name": "articuno",
+    "height": 1.7,
+    "weight": 55.4,
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png"
+  },
+  {
+    "id": 145,
+    "name": "zapdos",
+    "height": 1.6,
+    "weight": 52.6,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png"
+  },
+  {
+    "id": 146,
+    "name": "moltres",
+    "height": 2,
+    "weight": 60,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png"
+  },
+  {
+    "id": 147,
+    "name": "dratini",
+    "height": 1.8,
+    "weight": 3.3,
+    "types": [
+      "dragon"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png"
+  },
+  {
+    "id": 148,
+    "name": "dragonair",
+    "height": 4,
+    "weight": 16.5,
+    "types": [
+      "dragon"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png"
+  },
+  {
+    "id": 149,
+    "name": "dragonite",
+    "height": 2.2,
+    "weight": 210,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
+  },
+  {
+    "id": 150,
+    "name": "mewtwo",
+    "height": 2,
+    "weight": 122,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+  },
+  {
+    "id": 151,
+    "name": "mew",
+    "height": 0.4,
+    "weight": 4,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+  }
+]
