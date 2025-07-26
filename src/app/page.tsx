@@ -66,11 +66,17 @@ export default function MonkepoGame() {
     }
   }
 
-  const cleanupOldGameStates = (currentDate: string) => {
+  function getTodaySaoPaulo() {
+    return new Date().toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" })
+      .split("/").reverse().join("-");
+  }
+
+  const cleanupOldGameStates = () => {
     try {
+      const todaySP = getTodaySaoPaulo();
       const keys = Object.keys(localStorage)
       keys.forEach((key) => {
-        if (key.startsWith("monkepo-game-") && key !== `monkepo-game-${currentDate}`) {
+        if (key.startsWith("monkepo-game-") && key !== `monkepo-game-${todaySP}`) {
           localStorage.removeItem(key)
           console.log(`🧹 Cleaned up old game state: ${key}`)
         }
@@ -104,7 +110,7 @@ export default function MonkepoGame() {
         setDailyPokemon(dailyData.pokemon)
         setCurrentDate(dailyData.date)
 
-        cleanupOldGameStates(dailyData.date)
+        cleanupOldGameStates()
 
         const savedState = loadGameState(dailyData.date)
         if (savedState) {
@@ -193,14 +199,12 @@ export default function MonkepoGame() {
     const newGuesses = [...guesses, newGuess]
     setGuesses(newGuesses)
 
-    // Check if won
     const won = Object.values(results).every((result) => result === "correct")
     if (won) {
       setGameWon(true)
       setShowWinModal(true)
     }
 
-    // Clear search
     setSearchTerm("")
     setShowSuggestions(false)
     inputRef.current?.focus()
@@ -241,15 +245,16 @@ export default function MonkepoGame() {
   const sortedGuesses = [...guesses].reverse()
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">
-      {/* Header */}
-      <header className="bg-gray-800 shadow-sm border-b border-gray-700">
-        <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-center">
-          <h1 className="text-3xl font-bold text-white">PokéGuessr</h1>
-        </div>
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">      
+      <header className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-center">
+                 
+          <img
+            src="/logo.png"
+            alt="PokéGuessr Logo"
+            className="h-24 w-24 ml-4 object-contain"
+          />        
       </header>
-
-      {/* Main Content */}
+      
       <main className="max-w-4xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold text-white mb-2">Adivinhe o Pokémon do Dia!</h2>
@@ -258,8 +263,7 @@ export default function MonkepoGame() {
             <p className="text-green-400 font-medium mt-2">🎉 Parabéns! Volte amanhã para um novo desafio!</p>
           )}
         </div>
-
-        {/* Search Input */}
+        
         <div className="relative mb-8 max-w-md mx-auto">
           <div className="relative">
             <Input
@@ -274,14 +278,14 @@ export default function MonkepoGame() {
             <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
           </div>
 
-          {/* Suggestions */}
+          
           {showSuggestions && suggestions.length > 0 && !gameWon && (
             <div className="absolute top-full left-0 right-0 bg-gray-700 border border-gray-600 rounded-lg shadow-lg z-10 mt-1 max-h-64 overflow-y-auto">
               {suggestions.map((pokemon) => (
                 <button
                   key={pokemon.id}
                   onClick={() => makeGuess(pokemon)}
-                  className="w-full px-4 py-3 text-left hover:bg-gray-600 border-b border-gray-600 last:border-b-0 first:rounded-t-lg last:rounded-b-lg transition-colors"
+                  className="cursor-pointer w-full px-4 py-3 text-left hover:bg-gray-600 border-b border-gray-600 last:border-b-0 first:rounded-t-lg last:rounded-b-lg transition-colors"
                 >
                   <div className="flex items-center">
                     <img
@@ -304,8 +308,7 @@ export default function MonkepoGame() {
               ))}
             </div>
           )}
-
-          {/* No suggestions message */}
+          
           {showSuggestions && suggestions.length === 0 && searchTerm.length > 0 && !gameWon && (
             <div className="absolute top-full left-0 right-0 bg-gray-700 border border-gray-600 rounded-lg shadow-lg z-10 mt-1 p-4 text-center text-gray-400">
               Nenhum Pokémon encontrado com "{searchTerm}"
@@ -345,8 +348,7 @@ export default function MonkepoGame() {
                         <p className="text-sm text-gray-400">#{guess.pokemon.id}</p>
                       </div>
                     </div>
-
-                    {/* Characteristics */}
+                    
                     <div className="flex flex-wrap md:flex-nowrap justify-center gap-2 md:space-x-4 w-full md:w-auto">
                       <PokemonCharacteristic
                         label="Gen"
@@ -382,10 +384,7 @@ export default function MonkepoGame() {
             ))}
           </div>
         )}
-
-      </main>
-
-      {/* Win Modal */}
+      </main>      
       {showWinModal && dailyPokemon && (
         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
           <Card className="max-w-md w-full bg-gray-800 border-gray-700">
