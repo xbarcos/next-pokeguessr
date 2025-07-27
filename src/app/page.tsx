@@ -6,6 +6,9 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { PokemonCharacteristic } from "@/components/pokemon-characteristic"
+import GenerationTipsBadge from "@/components/generation-tips-badge"
+import { getGenerationName } from "./enums/generations"
+import { Badge } from "@/components/ui/badge"
 
 interface Pokemon {
   id: number
@@ -20,7 +23,7 @@ interface Pokemon {
 interface Guess {
   pokemon: Pokemon
   results: {
-    generation: "correct" | "wrong" | "higher" | "lower"
+    generation: "correct" | "higher" | "lower"
     type1: "correct" | "wrong"
     type2: "correct" | "wrong"
     height: "correct" | "higher" | "lower"
@@ -182,18 +185,20 @@ export default function MonkepoGame() {
               ? "correct"
               : "wrong",
       height:
-        Math.abs(pokemon.height - dailyPokemon.height) < 0.1
+        pokemon.height === dailyPokemon.height
           ? "correct"
           : pokemon.height > dailyPokemon.height
             ? "higher"
             : "lower",
       weight:
-        Math.abs(pokemon.weight - dailyPokemon.weight) < 0.1
+        pokemon.weight === dailyPokemon.weight
           ? "correct"
           : pokemon.weight > dailyPokemon.weight
             ? "higher"
             : "lower",
     } as Guess["results"]
+    console.log(`Pokemon Height: ${pokemon.height}, Daily Pokemon Height: ${dailyPokemon.height}`)
+    console.log(`Pokemon Weight: ${pokemon.weight}, Daily Pokemon Weight: ${dailyPokemon.weight}`)
 
     const newGuess: Guess = { pokemon, results }
     const newGuesses = [...guesses, newGuess]
@@ -245,24 +250,26 @@ export default function MonkepoGame() {
   const sortedGuesses = [...guesses].reverse()
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">      
-      <header className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-center">
-                 
-          <img
-            src="/logo.png"
-            alt="PokéGuessr Logo"
-            className="h-24 w-24 ml-4 object-contain"
-          />        
+    <div className="">      
+      <header className="max-w-4xl mx-auto px-4 flex items-center justify-center flex-col">                 
+        <img
+          src="/logo.png"
+          alt="PokéGuessr Logo"
+          className="h-28 w-28 ml-4 object-contain"
+        />
+        <GenerationTipsBadge />
       </header>
       
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold text-white mb-2">Adivinhe o Pokémon do Dia!</h2>
-          <p className="text-gray-300">Digite o nome de um Pokémon para fazer sua tentativa</p>
+      <main className="max-w-4xl mx-auto px-4">
+        <div className="text-center my-2">
           {gameWon && (
-            <p className="text-green-400 font-medium mt-2">🎉 Parabéns! Volte amanhã para um novo desafio!</p>
+            <Badge className="bg-green-500 text-white font-medium text-xl">🎉 Parabéns! Volte amanhã para um novo desafio!</Badge>            
+          )}
+          {!gameWon && (
+            <h2 className="text-2xl font-bold text-white mb-2">Adivinhe o Pokémon do Dia!</h2>
           )}
         </div>
+        <p className="text-gray-300 text-center mt-4">Digite o nome de um Pokémon para fazer sua tentativa</p>
         
         <div className="relative mb-8 max-w-md mx-auto">
           <div className="relative">
@@ -300,7 +307,7 @@ export default function MonkepoGame() {
                     <div>
                       <span className="font-medium text-white">{capitalizeFirst(pokemon.name)}</span>
                       <div className="text-xs text-gray-400">
-                        Gen {pokemon.generation} • {pokemon.types.map(capitalizeFirst).join(", ")}
+                        {getGenerationName(pokemon.id)} • {pokemon.types.map(capitalizeFirst).join(", ")}
                       </div>
                     </div>
                   </div>
@@ -367,17 +374,15 @@ export default function MonkepoGame() {
                       />
                       <PokemonCharacteristic
                         label="Altura"
-                        value={`${guess.pokemon.height}m`}
+                        value={`${guess.pokemon.height / 10}m`}
                         result={guess.results.height}
                       />
                       <PokemonCharacteristic
                         label="Peso"
-                        value={`${guess.pokemon.weight}kg`}
+                        value={`${guess.pokemon.weight / 10}kg`}
                         result={guess.results.weight}
                       />
                     </div>
-
-
                   </div>
                 </CardContent>
               </Card>
@@ -408,7 +413,7 @@ export default function MonkepoGame() {
                   <p>Geração: {dailyPokemon.generation}</p>
                   <p>Tipos: {dailyPokemon.types.map(capitalizeFirst).join(", ")}</p>
                   <p>
-                    Altura: {dailyPokemon.height}m | Peso: {dailyPokemon.weight}kg
+                    Altura: {dailyPokemon.height/10}m | Peso: {dailyPokemon.weight/10}kg
                   </p>
                 </div>
               </div>
